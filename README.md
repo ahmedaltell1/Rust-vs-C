@@ -89,13 +89,10 @@ Each implementation:
 
 ## External Libraries and Credits
 
-Some cryptographic functionality used in the C implementations relies on external open-source libraries that were not developed by me.
+The C implementation of SHA-256 in this project utilizes functionality from the following open-source library:
 
-The SHA-256 implementation used in the C portion of this project was adapted from publicly available open-source repositories for educational and research purposes.
+https://github.com/IanCaio/C-Sha256Lib
 
-Proper credit belongs to the original library authors and maintainers.
+The library was used for educational and research purposes as part of this Rust vs. C systems programming and memory safety research project.
 
-Example library referenced:
-- SHA-2 Library: https://github.com/amosnier/sha-2
-
-Rust implementations primarily utilized existing Rust cryptographic crates available through Cargo.
+All credit for the SHA-256 implementation belongs to the original repository author and contributors.
