@@ -1,0 +1,21 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/ahmedaltell/CLionProjects/hash-digest-verif -B /Users/ahmedaltell/CLionProjects/hash-digest-verif/cmake-build-debug
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-4.2/Modules/Platform/Darwin-Initialize.cmake:247 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake:35 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- The C compiler identification is AppleClang 16.0.0.16000026
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/ahmedaltell/CLionProjects/hash-digest-verif/cmake-build-debug
